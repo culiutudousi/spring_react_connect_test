@@ -1,0 +1,36 @@
+.app table {
+  margin: auto;
+  margin-top: 30px;
+  border-spacing: 0;
+  width: 600px;
+  height: 300px;
+}
+
+.app th, td {
+  border: 1px solid #9c9c9c;
+  padding: 20px 20px 20px 20px;
+}
+
+.app th {
+  background-color: #cccccc;
+  text-align: right;
+}
+
+.app th a {
+  padding-left: 20px;
+  color: #515556;
+  text-decoration: none;
+}
+
+.app th a.current {
+  text-decoration: underline;
+}
+
+.app td {
+  vertical-align: text-top;
+  color: #515556;
+}
+
+.app td a {
+  color: #ed1601;
+}
